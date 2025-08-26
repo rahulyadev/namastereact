@@ -1,0 +1,17 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "This is practice project of namaste react.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Rahul Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
