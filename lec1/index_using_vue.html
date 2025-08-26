@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Namaste Vue</title>
+</head>
+<body>
+  <!-- Vue replaces the contents of this element based on the app -->
+  <div id="root">{{ message }}</div>
+
+  <!-- Vue 3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return { message: 'Hello from Vue!' };
+      }
+    }).mount('#root');
+  </script>
+</body>
+</html>
