@@ -1,0 +1,20 @@
+React Component:
+
+types: Class based and functional component.
+Functional is majorly used.
+
+What is React functional component?
+- Just a normal JS function which returns some piece of JSX.
+- A JS function which returns react element.
+
+We cannot render react component directly in the render method.
+We have to make it a tag.
+
+Component composition: We can use other components in any component using angular brackets similar to the html tag.
+
+Babel just transpiles every JSX into react element and react just displays it.
+
+We can use function keyword to create functional component but the arrow is the modern way.
+
+We can write any JS code in JSX using the curly braces({}).
+We can even console.log in it.

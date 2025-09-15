@@ -1,0 +1,25 @@
+- Tell me about React.createElement. Example comparing with JSX.
+
+- Does React.createElement return html code(HTMLElement)?
+
+- What is createRoot? why we have to import two different packages React and ReactDOM?
+
+- Tell me about root.render(). Will it replace or append the passed code in root?
+
+- What are bundlers?
+
+- Is JSX part of React? is it a js syntax?
+
+- How does react understands JSX? How is it transpiled? Explain the complete flow from JSX to html tag conversion.
+
+- How is class name set in JSX?
+
+- What are other attributes that we can set in tags using HTML? Give some examples.
+
+- What are types of React component? Explain functional component(Can we use normal function or arrow func is mandatory?).
+
+- How do we render react component in react render method?
+
+- What is component composition? How is it done?
+
+- Can we write JS code inside JSX? Can we use console.log in it?
