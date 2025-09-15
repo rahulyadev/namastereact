@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const Title = (
+const Title = () => (
     <h1 className="title" tabIndex="5">
         This is the Title
     </h1>
@@ -13,11 +13,15 @@ const Title = (
 
 // const HeadingComponent = () => <h1>React functional component</h1>;
 
+const number = 1000;
+
 const HeadingComponent = () => (
     <div id="container">
+        {Title()}
         <Title />
+        <Title>ABCCCC</Title>
         <h1>
-            React functional component
+            React functional component with number: {number}
         </h1>
     </div>
 );

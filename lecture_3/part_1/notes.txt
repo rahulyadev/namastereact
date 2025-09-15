@@ -18,3 +18,14 @@ We can use function keyword to create functional component but the arrow is the 
 
 We can write any JS code in JSX using the curly braces({}).
 We can even console.log in it.
+
+We have to use {} to use react Element(or JSX way to create react element) in the react element as it is the js object.
+
+React sanitizes the data that is used in component or react element. Which prevents cross site scripting attacks.
+
+We can even call the functional component as a function inside curly braces in other functional component.
+
+Following are the ways we can use functional component inside another functional component:
+- {Title()}
+- <Title />
+- <Title>ABCCCC</Title>

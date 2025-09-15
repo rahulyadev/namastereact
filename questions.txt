@@ -23,3 +23,11 @@
 - What is component composition? How is it done?
 
 - Can we write JS code inside JSX? Can we use console.log in it?
+
+- Can we use react element inside of react component?
+
+- How can we use react element inside react element?
+
+- If we are able to run JS code using {} then anyone can do cross site scripting, right? How is it prevented?
+
+- Can we use functional component inside the curly braces?
